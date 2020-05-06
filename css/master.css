@@ -1,1 +1,7 @@
 /* This is where my CSS styles are going to go! */
+body {
+  background-color: black;
+}
+h1 {
+  color: grey;
+}
