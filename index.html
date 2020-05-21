@@ -7,35 +7,122 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- MY STYLES -->
+    <link rel="stylesheet" href="css/master.css">
+    <title>Quarantine Site</title>
   </head>
-  <body background-color="green">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-        </div>
-        <div class="col-8">
-        <h1 class="header">Quarantine Healthy</h1>
-        <p>Staying healthy in quarantine could be difficult for some of us. Many people think it is fine to stay in your house and do nothing. For those of you that struggle to stay active during quarantine, this will be a guide to help you.</p>
-        <h2 class="header2">For Adults</h2>
-        <p>Being an Adult could be exhasting but there are simple things you can do to stay active and healthy such as:</p>
-        <p>1. Going for a walk with your children but remember to keep your distance from others</p>
-        <p>2. A simple 20 (or more) minute workout</p>
-        <p>3. Dance to music</p>
-        <h2 class="header2">For Kids</h2>
-        <p>1. Practice playing a sport you enjoy</p>
-        <p>2. Go for a jog but remember to keep your distance from others</p>
-        <p>3. Dance to music</p>
-        <p>4. Doing a simple workout</p>
-        <h2 class="header2">Food</h2>
-        <p>People sometimes lack in their choice of food. Certain foods must be eaten on a daily basis such as vegetables, meat, fruits, eggs, cheese, and milk. You need the right amount of proteins in your meal in order to stay healthy.</p>
-        </div>
-        <div class="col">
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Youssef Mossaad</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Morning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Afternoon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Night</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Mid-Night</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
 
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Jumbotron Header -->
+      <header class="jumbotron my-4 text-center">
+        <h1 class="display-3 animated bounce">My Quarantine Website</h1>
+        <p class="lead">I am going to create this website to practice my web design/development skills through the COVID-19 quarantine.</p>
+      </header>
+
+      <!-- Page Features -->
+      <div class="row text-center">
+
+        <div class="col-lg-3 col-md-6 mb-4 animated lightSpeedIn">
+          <div class="card h-100">
+            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+            <div class="card-body">
+              <h4 class="card-title animated fadeIn">Morning</h4>
+              <p class="card-text">School</p>
+            </div>
+            <div class="card-footer">
+              <a href="[ADD LINK TO YOUR PORTFOLIO]" class="btn btn-danger" target="_blank">Visit My Portfolio</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 animated lightSpeedIn">
+          <div class="card h-100">
+            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+            <div class="card-body">
+              <h4 class="card-title animated fadeIn">Afternoon</h4>
+              <p class="card-text">Hobbies</p>
+            </div>
+            <div class="card-footer">
+              <a href="hobbies.html" class="btn btn-danger">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 animated lightSpeedIn">
+          <div class="card h-100">
+            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+            <div class="card-body">
+              <h4 class="card-title animated fadeIn">Night</h4>
+              <p class="card-text">Friends</p>
+            </div>
+            <div class="card-footer">
+              <a href="hobbies.html" class="btn btn-danger">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 animated lightSpeedIn">
+          <div class="card h-100">
+            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+            <div class="card-body">
+              <h4 class="card-title animated fadeIn">Mid-Night</h4>
+              <p class="card-text">Family</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-danger">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Boro Class of 2022</p>
+      </div>
+      <!-- /.container -->
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
