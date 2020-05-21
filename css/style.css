@@ -1,0 +1,25 @@
+body {
+  background-color: green;
+}
+div {
+  padding: 0px 50px 18px;
+}
+
+.header {
+ font-family: 'Bangers', cursive;
+ color: green;
+ font-size: 70px;
+ background-color: White;
+}
+.header2 {
+  font-family: 'Bangers', cursive;
+  color: green;
+  background-color: White;
+}
+p {
+  font-weight: bold;
+}
+.row {
+ text-align: center;
+ background-color: White;
+}
