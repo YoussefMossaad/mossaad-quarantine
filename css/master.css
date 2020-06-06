@@ -5,3 +5,6 @@ body {
 h1 {
   color: grey;
 }
+h2, h3, h6 {
+  color: white;
+}
